@@ -1,0 +1,14 @@
+var fechaHoy = new Date();
+var anno=fechaHoy.getFullYear();
+var mes=fechaHoy.getMonth();
+var dia=fechaHoy.getDay();
+var hora=fechaHoy.getHours();
+var min=fechaHoy.getMinutes();
+var sec=fechaHoy.getSeconds();
+var fecha85 = (dia- -85);
+var fecha187 = (fecha85-187);
+var hora=(hora+2);
+var fecha187=(fecha187-1);
+var fecha85=(fecha85-fecha187);
+document.write("anno "+anno+" mes "+mes+" dia "+fecha85+" hora "+hora+" minuto "+min+" segundo "+sec);
+document.write(fecha85);
